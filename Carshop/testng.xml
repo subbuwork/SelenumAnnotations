@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CarShop">
+  <!-- <parameter name="browser_name" value="chrome"></parameter> -->
+    <parameter name="browser_name" value="chrome"></parameter>
+    
+  <test name="Test1">
+    <classes>
+      <class name="com.carshop.tests.Test_CarShop_Used_Cars1"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
